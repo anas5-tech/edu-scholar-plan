@@ -1,0 +1,102 @@
+/*universal-tag*/
+*{
+    padding: 0%;
+    margin: 0%;
+   box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+
+/* background-color-fulbody*/
+body{
+    width: 100%;
+    min-height: 100%;
+    background-color: #b7adeb;
+   
+}
+
+/*title*/
+.title h1{
+   color: #1e1e63;
+   text-align: center;
+  padding: 20px;
+  font-size: 38px;
+  width: 100%;
+}
+
+/*price-outer*/
+.price-col{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/*price-inner*/
+.price{
+    width: 500px;
+    background-color: #e0e0e3;
+    color: #1e1e63;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+   min-height: 50%;
+    flex-basis: 20%;
+    box-shadow: 10px 20px 3px #1e1e63;
+}
+
+/*price-inner-elements*/
+.price h3{
+    padding: 20px 0px;
+    font-size: 30px;
+    text-align: center;
+}
+
+/*price-inner-elements*/
+.price ul  {
+    background-color: #f9d2a7;
+   list-style: none;
+   padding: 10px;
+   border-radius: 5px;
+   
+}
+
+/*price-inner-elements*/
+.price li{
+    padding: 10px 0px;
+}
+
+/*price-inner-elements*/
+.price h2{
+    padding: 15px 0px;
+}
+
+
+/*price-btn*/
+.price button{
+    width: 80%;
+    margin: 7% 10% ;
+    padding: 10px 12px;
+    font-size: 15px;
+    font-weight: 700;
+    border: none;
+    color: #e0e0e3;
+    background-color: #5c44bf;
+    border-radius: 5px;
+}
+
+/*price-btn-hover*/
+button:hover{
+   background-color:#1e1e63;
+   color: #e0e0e3;
+}
+
+/*responsive-price-cards*/
+@media screen and (max-width:700px){
+    .price{
+        flex-basis: 90%;
+    }
+}
+@media screen and (max-width:900px){
+    .price{
+        flex-basis: 90%;
+    }
+}
